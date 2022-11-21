@@ -222,6 +222,9 @@ const Login = ({ isSignUp }) => {
 		navigate('/financial');
 	}
 
+	const handleOnClickSemCadastro = useCallback(() => navigate('/financial'), [navigate]);
+
+
 	return (
 		<PageWrapper
 			title={isNewUser ? 'Cadastro' : 'Login'}
@@ -736,7 +739,8 @@ const Login = ({ isSignUp }) => {
 													<Button
 														color='warning'
 														className='w-100 py-3'
-														onClick={handleignIn}
+														// onClick={handleignIn}
+														onClick={handleOnClickSemCadastro}
 													>
 														Entrar
 													</Button>
