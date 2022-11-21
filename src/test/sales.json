@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "totenId": "4et7u2wUcGk3vYEqwKu8",
+    "storeId": "4rsOJPiW6Mpp36HQ0jfk",
+    "value": 1000,
+    "products": [
+      {
+        "id": "74ghth6WMVIT3Ag54JpD",
+        "qtd": 2,
+        "price": 500,
+        "complements": [
+          {
+            "id": "RHHT70V8v7QnzdqOapOk",
+            "price": 50,
+            "qtd": 1
+          },
+          {
+            "id": "khMNWgdDN0Gcbr0TvXbo",
+            "price": 100,
+            "qtd": 2
+          }
+        ]
+      }
+    ],
+    "reversed": false,
+    "device": 1,
+    "payment_type": 0,
+    "number_card": "0123",
+    "transactionId": "1234"
+  },
+  {
+    "id": "2",
+    "totenId": "4et7u2wUcGk3vYEqwKu8",
+    "storeId": "4rsOJPiW6Mpp36HQ0jfk",
+    "value": 30000,
+    "products": [
+      {
+        "id": "XEHYXbpGQoc7618Za4rk",
+        "qtd": 2,
+        "price": 15000,
+        "complements": [
+          {
+            "id": "6O1iieK0rwjo3uO6qdox",
+            "price": 50,
+            "qtd": 1
+          }
+        ]
+      }
+    ],
+    "reversed": false,
+    "device": 1,
+    "payment_type": 0,
+    "number_card": "0123",
+    "transactionId": "1234"
+  },
+  {
+    "id": "3",
+    "totenId": "4et7u2wUcGk3vYEqwKu8",
+    "storeId": "4rsOJPiW6Mpp36HQ0jfk",
+    "value": 20000,
+    "products": [
+      {
+        "id": "yX5tMpdycfzkoON8FqFh",
+        "qtd": 3,
+        "price": 5000,
+        "complements": []
+      },
+      {
+        "id": "XEHYXbpGQoc7618Za4rk",
+        "qtd": 1,
+        "price": 5000,
+        "complements": []
+      }
+    ],
+    "reversed": false,
+    "device": 1,
+    "payment_type": 0,
+    "number_card": "0123",
+    "transactionId": "1234"
+  }
+]

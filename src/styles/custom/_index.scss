@@ -1,0 +1,16 @@
+//
+// Custom
+//
+
+@use 'sass:map';
+
+.scroll-margin {
+	scroll-margin-top: map.get($header, height) + map.get($subheader, height) + map.get($page, padding-y);
+}
+
+.suggestions {
+	cursor: pointer;
+	border-right: 1px black solid;
+	border-left: 1px black solid;
+	border-bottom: 1px black solid;
+}
